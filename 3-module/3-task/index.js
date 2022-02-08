@@ -1,3 +1,4 @@
 function camelize(str) {
-  // ваш код...
+  let newStr = str.replaceAll(/(?<=-)\w/g, (text) => text.toUpperCase());
+  return newStr.replaceAll('-', '');
 }

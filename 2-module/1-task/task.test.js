@@ -48,3 +48,4 @@ describe('2-module-1-task', () => {
     expect(sumSalary(salaries)).toEqual(0);
   });
 });
+

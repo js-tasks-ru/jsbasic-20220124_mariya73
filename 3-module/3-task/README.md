@@ -7,9 +7,9 @@
 Примеры:
 
 ```js
-camelize('background-color') == 'backgroundColor';
-camelize('list-style-image') == 'listStyleImage';
-camelize('-webkit-transition') == 'WebkitTransition';
+camelize("background-color") == "backgroundColor";
+camelize("list-style-image") == "listStyleImage";
+camelize("-webkit-transition") == "WebkitTransition";
 ```
 
 P.S. Подсказка: используйте метод `split`, чтобы разбить строку на массив символов, потом переделайте всё как нужно и методом `join` соедините обратно.
