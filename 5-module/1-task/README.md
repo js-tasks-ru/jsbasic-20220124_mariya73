@@ -11,6 +11,7 @@ hideSelf();
 ```
 
 Сама кнопка:
+
 ```html
 <button class="hide-self-button">Нажмите, чтобы спрятать</button>
 ```

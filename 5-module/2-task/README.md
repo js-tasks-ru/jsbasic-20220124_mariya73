@@ -11,8 +11,11 @@ toggleText();
 ```
 
 Вёрстка для задачи:
+
 ```html
-<button class="toggle-text-button">Нажмите, чтобы спрятать/показать текст</button>
+<button class="toggle-text-button">
+  Нажмите, чтобы спрятать/показать текст
+</button>
 <div id="text">Текст</div>
 ```
 
